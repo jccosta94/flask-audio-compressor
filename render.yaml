@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: audio-compressor
+    env: python
+    buildCommand: ""
+    startCommand: "python main.py"
+    envVars:
+      - key: PORT
+        value: 10000
